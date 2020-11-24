@@ -27,6 +27,16 @@ header.masthead {
   padding-bottom: 8rem;
 }
 
+.timer{ 
+  display: inline;
+  background: #7E4A88;
+  color: white;
+  font-size: 1.5em;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 header.masthead .overlay {
   position: absolute;
   background-color: #212529;

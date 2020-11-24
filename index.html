@@ -22,6 +22,9 @@
   <!-- <link href="css/landing-page.min.css" rel="stylesheet"> -->
   <link href="css/landing-page.css" rel="stylesheet">
 
+  <!-- Javascript -->
+  <script src="js/app.js"></script>
+
   <!-- Hotjar Tracking Code for https://engajamulher.netlify.app/ -->
   <script>
     (function(h,o,t,j,a,r){
@@ -64,13 +67,30 @@
       <img class="img-fluid rounded-circle" src="img/logo.png" style="width: 50px;" alt="logo">
       <a class="navbar-brand" href="#">EngajaMulher</a>
       <a class="btn btn-warning" href="https://cdn.forms-content.sg-form.com/819a3017-2d24-11eb-a8a2-f68fa74ace80">Cadastre-se</a>
+      
     </div>
   </nav>
-
+  
   <!-- Masthead -->
   <header class="masthead text-white text-center">
     <div class="overlay"></div>
     <div class="container">
+
+      <!-- Countdown -->
+      <div class="row position-absolute sticky-top mt-4">
+        <div class="col-12">
+          <p><b>Entraremos ao vivo em:</b></p>
+            <div class="timer" id="days"></div>
+            <div class="timer" id="hours"></div>
+            <div class="timer" id="mins"></div>
+            <div class="timer" id="secs"></div>
+            <div class="end" id="end"></div>
+            
+          </div>
+        
+      </div>
+      <!-- Fim do countdown -->
+
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">Olá empoderada! Somos a EngajaMulher e estamos preparando um evento especial para todas nós. Quer saber mais?</h1>
@@ -251,13 +271,13 @@
   </section>
 
   <!-- Parceiros -->
-  <section class="features-icons bg-white text-center d-none">
+  <section class="features-icons bg-white text-center">
     <div class="container">
       <div class="row">
         <div class="col-12 mb-5">
           <h2>Nossas queridas parceiras</h2>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-12">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <a class="m-auto text-primary" href="https://www.ongnovamulher.org/"><img class="" src="img/ong.png"></a>
@@ -266,7 +286,7 @@
             
           </div>
         </div>
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-layers m-auto text-primary"></i>
@@ -283,7 +303,7 @@
             <h3>Soluções</h3>
             <p class="lead mb-0">O que temos de dicas para deixar tudo mais prático.</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>  

@@ -163,11 +163,25 @@ footer.footer {
   color: rgba(234, 188, 247);
 }
 
+
 @media (max-width: 768px){
   #logo{
     width: 100px; 
     margin-bottom: -40px;
     margin-top: -15px;
   }
+  .navbar .btn{
+    font-size: 10px;
+  }
+  #live iframe{
+    width: 300px;
+    height: auto;
+  }
+}
 
+@media (max-width: 768px){
+  #live iframe{
+    width: 250px;
+    height: auto;
+  }
 }

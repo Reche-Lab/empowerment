@@ -65,6 +65,7 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+
 }
 
 .showcase .showcase-text {
@@ -160,4 +161,15 @@ footer.footer {
 
 #live b{
   color: rgba(234, 188, 247);
+}
+
+@media (max-width: 768px){
+  #logo{
+    width: 100px; 
+    margin-bottom: -40px;
+    margin-top: -15px;
+  }
+  .btn{
+    font-size: 10px;
+  }
 }

@@ -27,8 +27,13 @@
         document.getElementById("hours").innerHTML = "" 
         document.getElementById("mins").innerHTML = ""
         document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "TIME UP!!";
+        document.getElementById("end").innerHTML = "ESTAMOS AO VIVO!!";
     }
     }, 1000);
 
-// 
+// ------- Direciona para a Live -------------
+
+function assistirLive(){
+
+}
+

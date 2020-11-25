@@ -5,8 +5,14 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Fortalecendo o empoderamento feminino">
+  <meta name="keywords" content="empoderamento feminino, engajar o feminismo">
+  <meta property="og:title" content="EngajaMulher - Empoderamento Feminino">
+  <meta property="og:image" content="https://growthon.github.io/acreditas/img/live_engajamulher_01.png">
+  <meta property="og:description" content="Fortalecendo o empoderamento feminino">
+  <meta property="og:url" content="https://engajamulher.netlify.app/">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
 
   <title>EngajaMulher - Evento</title>
 
@@ -59,9 +65,12 @@
 
   <script> 
     function doarAgora() { 
-        window.open( 
-          "https://sharity.com.br/arrecadacao-de-fundos-para-a-ong-nova-mulher?u=1269e6e32eb111eba2610a64e40af16e", "_blank"); 
-    } 
+      window.open( 
+        "https://sharity.com.br/arrecadacao-de-fundos-para-a-ong-nova-mulher?u=1269e6e32eb111eba2610a64e40af16e", "_blank"); 
+      }
+      function vaiPraLive(){
+        window.open("https://www.youtube.com/embed/A8iY30PK8VA")
+      } 
   </script>
 
 </head>
@@ -97,9 +106,9 @@
       <!-- Fim do countdown -->
 
       <div class="row">
-        <div class="col-xl-9 mx-auto py-5"  id="live">
+        <a class="col-xl-9 mx-auto py-5"  id="live" onclick="vaiPraLive()" href="https://www.youtube.com/embed/A8iY30PK8VA">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/A8iY30PK8VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </a>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mt-3">
           <form>
             <div class="form-row">
@@ -155,6 +164,8 @@
       </div>
     </div>
   </footer>
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

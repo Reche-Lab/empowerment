@@ -169,7 +169,7 @@ footer.footer {
     margin-bottom: -40px;
     margin-top: -15px;
   }
-  header.masthead .btn{
+  .navbar .btn{
     font-size: 10px;
   }
 }

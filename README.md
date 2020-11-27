@@ -27,24 +27,16 @@ Growth Hacking [hyper](#-Hypers).
 <hr/>
 
 ### Hipsters
-Carolina Costa
-Luiz Evelin
-Thaísa Passos
-Carla Takagi
+- [Carolina Costa]() + [Luiz Evelin]() + [Thaísa Passos]() + [Carla Takagi]()
 
 ### Hackers
-Danilo Fernandes Felix Palacio
-Bruno Reche
-Cristiano Medeiros
+- [Bruno Reche]() + [Danilo Fernandes Felix Palacio]() + [Cristiano Medeiros]()
 
 ### Hustlers
-Camila Komatsu
-Gabriel Santa Rosa
+- [Camila Komatsu]() + [Gabriel Santa Rosa]()
 
 ### Hypers
-Kauan Yamada
-Enzo Dulius
-Larissa Teixeira
+- [Kauan Yamada]() + [Enzo Dulius]() + [Larissa Teixeira]()
 
 
 ## :rocket: Tecnologias

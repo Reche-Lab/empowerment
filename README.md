@@ -20,3 +20,37 @@ A [landing](https://engajamulher.netlify.app/index.html) page da marca foi criad
     <img alt="Example" title="Example" src="img/live_engajamulher_01.png" width="500px" />
 </h1>
 
+## :black_nib: Criado por
+Grupo 4bidden é composto por doze pessoas distribuídas em 4 stacks de conhecimento: Front-end [hacker](#-Hackers), Design UI/UX [hipster](#-Hipsters), Inside Sales [hustler](#-hustlers) e 
+Growth Hacking [hyper](#-Hypers). 
+
+<hr/>
+
+### Hipsters
+Carolina Costa
+Luiz Evelin
+Thaísa Passos
+Carla Takagi
+
+### Hackers
+Danilo Fernandes Felix Palacio
+Bruno Reche
+Cristiano Medeiros
+
+### Hustlers
+Camila Komatsu
+Gabriel Santa Rosa
+
+### Hypers
+Kauan Yamada
+Enzo Dulius
+Larissa Teixeira
+
+
+## :rocket: Tecnologias
+
+Este projeto foi desenvolvido utilizando:
+
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Glossario/JavaScript)

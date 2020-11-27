@@ -10,7 +10,7 @@
 	  
 ## :information_source: O que é a EngajaMulher?
 
-A EngajaMulher é uma empresa fictícia que incentiva ao empoderamento feminino. 
+A EngajaMulher é uma empresa fictícia que incentiva o empoderamento feminino. 
 
 ## 💻 Projeto
 

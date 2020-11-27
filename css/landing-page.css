@@ -18,6 +18,11 @@ h6 {
   font-weight: 700;
 }
 
+#corpo{
+  position: absolute;
+  z-index: 0;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -25,6 +30,10 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+
+#timer{
+  z-index: 1;
 }
 
 .timer{ 
@@ -163,8 +172,35 @@ footer.footer {
   color: rgba(234, 188, 247);
 }
 
+#modalSair{
+  position: fixed;
+  top: 0;
+  margin: 0 30%;
+  z-index: 2;
+}
 
-@media (max-width: 768px){
+#modal_titulo{
+  color: #B774B7;
+}
+#botao_assistir{
+  background: #5F4A97;
+  color: white;
+}
+
+@media (max-width: 992px){
+  #modalSair{
+    margin: 0 20%;
+  }
+}
+
+@media (max-width: 767px){
+  #live iframe{
+    width: 500px;
+    
+  }
+}
+
+@media (max-width: 624px){
   #logo{
     width: 100px; 
     margin-bottom: -40px;
@@ -172,14 +208,28 @@ footer.footer {
   }
 
   #live iframe{
-    width: 300px;
+    width: 350px;
+  }
+
+  #modalSair{
+    margin: 0 10%;
     height: auto;
   }
+
 }
 
-@media (max-width: 768px){
+@media (max-width: 556px){
+  
+  #modalSair{
+    margin: 0 5%;
+  }
+
+}
+
+@media (max-width: 400px){
   #live iframe{
     width: 250px;
     height: auto;
   }
 }
+

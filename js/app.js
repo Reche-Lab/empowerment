@@ -23,17 +23,31 @@
     // Display the message when countdown is over
     if (timeleft < 0) {
         clearInterval(myfunc);
-        document.getElementById("days").innerHTML = ""
-        document.getElementById("hours").innerHTML = "" 
-        document.getElementById("mins").innerHTML = ""
-        document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "ESTAMOS AO VIVO!!";
+        document.getElementById("days").innerHTML = "0 dias"
+        document.getElementById("hours").innerHTML = "0 h" 
+        document.getElementById("mins").innerHTML = "0 min"
+        document.getElementById("secs").innerHTML = "0 seg"
+        document.getElementById("end").innerHTML = "JÁ ESTÁ NO AR!!";
     }
     }, 1000);
 
-// ------- Direciona para a Live -------------
+// ---------- Modal ------------
+let count = 0
+document.addEventListener("mouseleave", function(){
+  
+  if (count < 3 ) {
+    document.getElementById("modalSair").className = 'show';
+    count += 1;
+    console.log(count);
+  }
+  
+})
 
-function assistirLive(){
-
+function closeMsg(){
+  document.getElementById('modalSair').className = 'modal fade';
 }
 
+function assistirLive(){
+  document.getElementById('modalSair').className = 'modal fade';
+  window.location.href='live.html';
+}

@@ -8,7 +8,7 @@
   <meta name="description" content="Fortalecendo o empoderamento feminino">
   <meta name="keywords" content="empoderamento feminino, engajar o feminismo">
   <meta property="og:title" content="EngajaMulher - Empoderamento Feminino">
-  <meta property="og:image" content="https://growthon.github.io/acreditas/img/live_engajamulher_01.png">
+  <meta property="og:image" content="https://engajamulher.netlify.app/img/live_engajamulher_01.png">
   <meta property="og:description" content="Fortalecendo o empoderamento feminino">
   <meta property="og:url" content="https://engajamulher.netlify.app/">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
@@ -68,22 +68,39 @@
       window.open( 
         "https://sharity.com.br/arrecadacao-de-fundos-para-a-ong-nova-mulher?u=1269e6e32eb111eba2610a64e40af16e", "_blank"); 
       }
-      function vaiPraLive(){
-        window.open("https://youtu.be/LN3yicgvnpg")
-      } 
   </script>
 
 </head>
 
-<body>
+<body class="position-relative">
 
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-      <img id="logo" class="img-fluid rounded-circle" src="img/logo.png" alt="logo">
+      <a href="index.html"><img id="logo" class="img-fluid rounded-circle" src="img/logo.png" alt="logo"></a>
       <a class="btn btn-warning" href="https://cdn.forms-content.sg-form.com/819a3017-2d24-11eb-a8a2-f68fa74ace80">Doar</a>
     </div>
   </nav>
+
+   <!-- Modal -->
+   <div class="modal fade" id="modalSair" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div id="modal_titulo_div" class="modal-header">
+          <h5 class="modal-title" id="modal_titulo">Já vai começar a nossa LIVE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeMsg()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modal_corpo">
+          Aproveite para assistir, fazer perguntas e aumentar a consciência do mundo ao nosso redor. Compartilhe com as amigas.
+        </div>
+        <div class="modal-footer">
+          <a type="button" data-dismiss="modal" id="botao_assistir" class="btn" onclick="assistirLive()">Assitir AGORA</a>
+        </div>
+      </div>
+    </div>
+  </div>
   
   <!-- Masthead -->
   <header class="masthead text-white text-center">
@@ -91,7 +108,7 @@
     <div class="container">
 
       <!-- Countdown -->
-      <div class="row position-absolute sticky-top mt-4">
+      <div id="timer" class="row position-absolute sticky-top mt-4">
         <div class="col-12">
           <p><b>Entraremos ao vivo em:</b></p>
             <div class="timer" id="days"></div>
@@ -106,9 +123,9 @@
       <!-- Fim do countdown -->
 
       <div class="row">
-        <a class="col-xl-9 mx-auto py-5"  id="live" onclick="vaiPraLive()" href="https://youtu.be/LN3yicgvnpg">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/LN3yicgvnpg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </a>
+        <div class="col-xl-9 mx-auto py-5"  id="live">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LN3yicgvnpg?start=24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto mt-3">
           <form>
             <div class="form-row">
@@ -165,7 +182,25 @@
     </div>
   </footer>
 
-
+  <!-- Modal -->
+  <div class="modal fade" id="modalSair" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div id="modal_titulo_div" class="modal-header">
+          <h5 class="modal-title" id="modal_titulo">Já vai começar a nossa LIVE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeMsg()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modal_corpo">
+          Aproveite para assistir, fazer perguntas e aumentar a consciência do mundo ao nosso redor. Compartilhe com as amigas.
+        </div>
+        <div class="modal-footer">
+          <a type="button" data-dismiss="modal" id="botao_assistir" class="btn" onclick="assistirLive()">Assitir AGORA</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

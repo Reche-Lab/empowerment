@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="EngajaMulher" title="#EngajaMulher" src=".img/logo.png" width="142px" />
+    <img alt="EngajaMulher" title="#EngajaMulher" src="img/logo.png" width="142px" />
 </h1>
 
 <h4 align="center"> 

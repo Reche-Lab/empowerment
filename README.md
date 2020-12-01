@@ -45,4 +45,5 @@ Este projeto foi desenvolvido utilizando:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Glossario/JavaScript)
